@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37895aa535cae4534c62f9ed615a5689",
+    "revision": "cefe59cb6408e071ffa8e651bf4a96ac",
     "url": "/eslovsemb/index.html"
   },
   {
-    "revision": "63eb213ef8cc9a22df7b",
+    "revision": "f48bf7eff836edfc8891",
     "url": "/eslovsemb/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "285c583367ea6cf0745c",
+    "revision": "c8078c64e7504cf2d1ab",
     "url": "/eslovsemb/static/css/main.2d4aee3e.chunk.css"
   },
   {
-    "revision": "63eb213ef8cc9a22df7b",
-    "url": "/eslovsemb/static/js/2.b2f1a110.chunk.js"
+    "revision": "f48bf7eff836edfc8891",
+    "url": "/eslovsemb/static/js/2.e823e8c9.chunk.js"
   },
   {
-    "revision": "285c583367ea6cf0745c",
-    "url": "/eslovsemb/static/js/main.e3d639b2.chunk.js"
+    "revision": "c8078c64e7504cf2d1ab",
+    "url": "/eslovsemb/static/js/main.33715638.chunk.js"
   },
   {
     "revision": "4d4af04a7a4679bb3db4",
