@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/eslovsemb/static/css/main.2d4aee3e.chunk.css",
+    "main.js": "/eslovsemb/static/js/main.e3d639b2.chunk.js",
+    "main.js.map": "/eslovsemb/static/js/main.e3d639b2.chunk.js.map",
+    "runtime~main.js": "/eslovsemb/static/js/runtime~main.5ee02f9c.js",
+    "runtime~main.js.map": "/eslovsemb/static/js/runtime~main.5ee02f9c.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/eslovsemb/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.b2f1a110.chunk.js": "/eslovsemb/static/js/2.b2f1a110.chunk.js",
+    "static/js/2.b2f1a110.chunk.js.map": "/eslovsemb/static/js/2.b2f1a110.chunk.js.map",
+    "index.html": "/eslovsemb/index.html",
+    "precache-manifest.eb3d64a93fbc5eef3f2ac86e822b7c74.js": "/eslovsemb/precache-manifest.eb3d64a93fbc5eef3f2ac86e822b7c74.js",
+    "service-worker.js": "/eslovsemb/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/eslovsemb/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.2d4aee3e.chunk.css.map": "/eslovsemb/static/css/main.2d4aee3e.chunk.css.map",
+    "static/media/Carrousel1.jpg": "/eslovsemb/static/media/Carrousel1.3f607850.jpg",
+    "static/media/Carrousel2.jpg": "/eslovsemb/static/media/Carrousel2.0aaed7c9.jpg",
+    "static/media/Carrousel3.jpg": "/eslovsemb/static/media/Carrousel3.eaaa0655.jpg",
+    "static/media/landing-wood.jpg": "/eslovsemb/static/media/landing-wood.8842192d.jpg"
+  }
+}
