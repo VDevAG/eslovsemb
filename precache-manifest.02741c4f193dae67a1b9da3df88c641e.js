@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8277926701d458349868a7b95d24ef1f",
+    "revision": "18e6329b0d99bda725c536dd34276232",
     "url": "/eslovsemb/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eslovsemb/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "bea4d808e64935a61c12",
+    "revision": "2f9ffda27f486a752fa4",
     "url": "/eslovsemb/static/css/main.2d4aee3e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eslovsemb/static/js/2.24134f25.chunk.js"
   },
   {
-    "revision": "bea4d808e64935a61c12",
-    "url": "/eslovsemb/static/js/main.781973fd.chunk.js"
+    "revision": "2f9ffda27f486a752fa4",
+    "url": "/eslovsemb/static/js/main.af857a1c.chunk.js"
   },
   {
     "revision": "4d4af04a7a4679bb3db4",
