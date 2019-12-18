@@ -8,6 +8,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
+// Bootstrap
+import { Button, Form, Row } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
@@ -17,22 +20,30 @@ export default function ProductSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
-      <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Historia</h2>
-          <h5 className={classes.description}>
-          Eslövs Emballage AB startades av Allan Thure i slutet av 60- talet. Bolaget ombildades till aktiebolag 1987. 
-          Tomas Thure som idag driver och äger företaget började i bolaget på heltid från 1986. 
-          Företaget var som störst år 2000 med 4 anställda och vi flyttade då till våra nuvarande lokaler som vi själva byggde och renoverade.
-          </h5>
-          <h2 className={classes.title}>Nutid</h2>
-          <h5 className={classes.description}>
-          Jag satsar som tidigare på special emballage och diverse andra produkter i trä och skivmaterial. 
-          Jag satsar av förklarliga skäl  inte på volym utan vill vara det lilla företaget med stor service och snabba säkra leveranser av enstaka produkter eller korta serier. 
-          Min styrka är stort kunnande om specialemballage och inte minst de krav som ställs på dessa.
-          </h5>
-        </GridItem>
-      </GridContainer>
+      <h2 className={classes.title}>Kontakt</h2>
+      <Form>
+        <Form.Group controlId="formBasicEmail">
+          <Form.Label>Epost</Form.Label>
+          <Form.Control type="email" placeholder="Skriv in epost" />
+          <Form.Text className="text-muted">
+            Vi delar ingen data
+          </Form.Text>
+        </Form.Group>
+        <Form.Group controlId="formBasicPassword">
+          <Form.Label>Telefonnummer</Form.Label>
+          <Form.Control type="number" placeholder="Telefonnummer" />
+        </Form.Group>
+        <Form.Group controlId="formBasicCheckbox">
+          <Form.Check type="checkbox" label="Jag godkänner" />
+        </Form.Group>
+        <Form.Group controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Meddelande</Form.Label>
+          <Form.Control as="textarea" rows="7" />
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          Skicka
+        </Button>
+      </Form>
     </div>
   );
 }

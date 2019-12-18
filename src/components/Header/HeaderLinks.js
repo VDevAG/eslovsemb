@@ -15,6 +15,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import HistoryIcon from '@material-ui/icons/History';
 import GavelIcon from '@material-ui/icons/Gavel';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
+import MapIcon from '@material-ui/icons/Map';
 
 
 // core components
@@ -61,7 +62,20 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <ContactMailIcon className={classes.icons} /> Contact
+          <ContactMailIcon className={classes.icons} /> Kontakt
+        </Button>
+        </Link>
+
+      </ListItem>
+      <ListItem className={classes.listItem}>
+      <Link to="/findus" className={classes.listItem}>
+        <Button
+          href="/#"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <MapIcon className={classes.icons} /> Hitta hit
         </Button>
         </Link>
       </ListItem>
